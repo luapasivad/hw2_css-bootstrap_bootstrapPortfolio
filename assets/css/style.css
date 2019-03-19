@@ -1,0 +1,63 @@
+body {
+    background-color: #AFD0D6;
+}
+
+.container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: #36393B 2px solid;
+    max-width: 992px;
+    width: 100%;
+    background-color: white;
+    color: #36393B;
+}
+
+.content {
+    padding: 20px;
+}
+
+.me-wrapper {
+    padding: 20px;
+}
+
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: #36393B 2px solid;
+    color: #483D3F;
+}
+
+.folioImg {
+    margin: 20px;
+    position: relative;
+}
+
+.hangmanText, .rpgText, .triviaText, .infoText, .rpsText {
+    width: 200px;
+    margin-left: 20px;
+    background-color: #AFD0D6;
+    color: #36393B;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    padding: 10px 0 10px 0;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.footerText {
+    text-align: center;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 768px) {
+    /* index */
+    .me-wrapper {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
